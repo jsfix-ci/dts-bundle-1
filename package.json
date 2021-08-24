@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@dougkulak/dts-bundle",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Export TypeScript .d.ts files as an external module definition",
   "author": "Doug Kulak <dougkulak@gmail.com>",
   "license": "MIT",
