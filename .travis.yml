@@ -1,0 +1,14 @@
+language: node_js
+node_js: 14
+
+install:
+  - npm i
+
+script:
+  - npm run build
+  - npm run test
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: npx -p @qiwi/semrel-toolkit semrel -e @qiwi/semrel-config
