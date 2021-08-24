@@ -11,8 +11,8 @@
 
 /test/tmp
 /test/build
-!/test/src/typings/*.d.ts
 /test/src/**/*.d.ts
+!/test/src/typings/*.d.ts
 !/test/src/ambient/*.d.ts
 !/test/src/inline_imports/*.d.ts
 /test/src/**/*.js
